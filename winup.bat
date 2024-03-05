@@ -1,0 +1,1 @@
+powershell -Command "Start-Process -Verb RunAs powershell '-NoExit -ExecutionPolicy Bypass -Command cd \\\"C:\Users\%USERNAME%\Desktop\\\"; & \\\".\winup.ps1\\\"' "
